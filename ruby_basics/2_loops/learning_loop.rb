@@ -26,4 +26,8 @@ end
   puts "i is #{i}"
 end
 
+# upto loop
 5.upto(10) { |num| print "#{num} " }
+
+# downto loop
+10.downto(5) { |num| print "#{num} " }
